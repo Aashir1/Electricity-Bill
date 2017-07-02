@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <!--<p>
+    Customer name: <span id="customer-name"></span><br />
+    Month: <span id="month"></span><br />
+    Number of units: <span id="units"></span><br />
+    Charges per unit: <span id="charges"></span><br />
+    Net Amount Payable: <span id="net-amount"></span><br />
+    Late Payment surcharges: <span id="late-payment"></span><br />
+    Gross Amount Payable (after Due Date): <span id="after-duedate"></span>
+    Paid charges: <span id="paid-charges"></span><br />
+    
+</p>
+-->
+    <header class="header">
+        <h1>Monthly Bill Statement</h1>
+    </header>
+    <section>
+        <p class="customer-name">
+            Customer Name :
+            <span id="customer-name"></span>
+            <br />
+            <br /> Cunsumer Number :
+            <span id="cunsumer-no">0000000-000002</span>
+            <br />
+            <br /> Meter Number :
+            <span id="meter-no">0000-121-10124-10</span>
+        </p>
+        <h2>Your Electricity Charges</h2>
+        <div class="payable-charges">
+            <div class="right-div">
+                <div class="payment">
+                    <h3>Before Due Date</h3>
+                     <span id="net-amount"></span>
+                </div>
+                <div class="payment">
+                    <h3>After Due Date</h3>
+                    <span id="after-duedate"></span>
+                </div>
+            </div>
+            <div class="left-div">
+                Due Date : 01-12-2017
+                <br>
+                <br>Late Amount(after due date) : <span id="late-payment"></span> Rs
+                <br>
+                <br>
+                <div class="show">
+                    Before due date : <span id="net-amount"></span>
+                    <br>
+                    <br> After due date : <span id="after-duedate"></span>
+                </div>
+            </div>
+        </div>
+        <div class="data-table">
+            <table>
+                <tr>
+                    <td>Month</td>
+                    <td><span id="month"></span></td>
+                </tr>
+                <tr>
+                    <td>Number Of Unit</td>
+                    <td><span id="units"></span></td>
+                </tr>
+                <tr>
+                    <td>Charges per unit</td>
+                    <td><span id="charges"></span></td>
+                </tr>
+                
+                <tr>
+                    <td>Late Payment Sur charges</td>
+                    <td><span id="late-payment-t"></span></td>
+                </tr>
+                <tr  class="emphasis" style="border : 0px">
+                     <td>Net Amount Payable</td>
+                    <td><span id="net-amount-t"></span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="paid">
+           Paid Charges : 
+           <span id="paid-charges"></span>
+        </div>
+    </section>
+
+
+
+
+    <script src="app.js">
+
+    </script>
+</body>
+
+</html>
